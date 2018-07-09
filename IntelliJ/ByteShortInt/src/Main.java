@@ -7,7 +7,7 @@ public class Main {
         int myTotal = (myMinValue/2);
         System.out.println("myTotal = " + myTotal);
 
-        // bye has a width of 8
+        // byte has a width of 8
         byte myByteValue = -128;
         byte myNewByteValue = (byte) (myByteValue/2);
         System.out.println("myNewByteValue = " + myNewByteValue);
