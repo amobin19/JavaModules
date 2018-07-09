@@ -14,12 +14,10 @@ public class Main {
 
         // short has a width of 16
         short myShortValue = 32767;
-        // System.out.println();
 
-        // long as a width of 64
+        // long has a width of 64
         long myLongValue = 100L;
         long longVal = 9_223_372_036_854_775_807L;
-        // System.out.println();
 
         byte byteVar = 10;
         short shortVar = 20;
