@@ -1,0 +1,6 @@
+public class ifState {
+	public static void main(String[] args) {
+		boolean cond = 1 < 6;
+		System.out.println(cond);
+	}
+}
