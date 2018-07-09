@@ -13,13 +13,11 @@ public class DoWhile {
 		}*/
 		
 		// will be at least one run of do-while
-		int value = 0;
-		
+		int value;
 		do{
 			System.out.println("Enter a number: ");
 			value = scanner.nextInt();
 		}
-		
 		while(value != 5);
 		
 		System.out.println("Got 5!");
