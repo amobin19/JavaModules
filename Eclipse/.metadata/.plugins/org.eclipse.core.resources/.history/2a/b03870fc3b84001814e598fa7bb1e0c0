@@ -1,0 +1,10 @@
+public class MultiArray {
+	public static void main(String[] args) {
+		
+		int[] values = {3, 5, 2323};
+		
+		System.out.println(values[2]);
+		
+		
+	}
+}
