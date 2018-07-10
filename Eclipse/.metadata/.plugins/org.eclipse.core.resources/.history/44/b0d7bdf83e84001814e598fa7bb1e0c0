@@ -1,0 +1,13 @@
+class Person{
+	// Classes can contain
+	// 1. Data
+	// 2.
+}
+
+public class App {
+	public static void main(String[] args) {
+		System.out.println("hello");
+		System.out.println("sup");
+		
+	}
+}
