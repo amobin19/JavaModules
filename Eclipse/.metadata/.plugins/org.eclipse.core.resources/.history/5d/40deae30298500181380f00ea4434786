@@ -1,0 +1,12 @@
+public class StringStuff {
+	public static void main(String[] args) {
+		String info = "";
+		
+		info += "My name is Ayman.";
+		info += " ";
+		info += "I am a student.";
+		
+		System.out.println(info);
+		
+	}
+}
