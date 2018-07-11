@@ -1,5 +1,5 @@
 class Thing {
-	public final static int LUCKY_NUM = 7;
+	public final static int LUCKY_NUM = 5;
 
 	public String name;
 	public static String description;
@@ -14,7 +14,7 @@ class Thing {
 		count++;
 	}
 	
-	static int getCount(){
+	int getCount(){
 		return count;
 	}
 
@@ -35,7 +35,7 @@ public class App {
 
 		System.out.println(Thing.description);
 
-		Thing.showInfo(); // print from showInfo method
+		Thing.showInfo();
 
 		System.out.println("Before creating objects, count is: " + Thing.count);
 
@@ -44,7 +44,8 @@ public class App {
 
 		System.out.println("After creating objects, count is: " + Thing.count);
 		
-		System.out.println("Getter got " + Thing.getCount() + " counts for things!");
+		System.out.println("Getter got " + thing1.getCount() + " counts for thing1");
+		System.out.println("Getter got " + thing2.getCount() + " counts for thing1");
 
 		thing1.name = "Joe";
 		thing2.name = "Shmoe";

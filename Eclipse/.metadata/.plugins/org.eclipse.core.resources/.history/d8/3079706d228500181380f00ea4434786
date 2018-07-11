@@ -30,7 +30,7 @@ public class Application {
 		// frog1.name = "Vignesh";
 		// frog1.age = 12;
 		
-		frog1.setName("Vignesh");
+		frog1.setName("Vigenesh");
 		frog1.setAge(12);
 		
 		System.out.println(frog1.getName());

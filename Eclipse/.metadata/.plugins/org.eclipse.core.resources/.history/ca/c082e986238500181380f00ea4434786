@@ -35,7 +35,7 @@ public class App {
 
 		System.out.println(Thing.description);
 
-		Thing.showInfo(); // print from showInfo method
+		Thing.showInfo();
 
 		System.out.println("Before creating objects, count is: " + Thing.count);
 
