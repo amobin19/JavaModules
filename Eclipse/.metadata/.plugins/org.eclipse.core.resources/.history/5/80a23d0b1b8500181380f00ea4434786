@@ -1,0 +1,10 @@
+class Thing {
+	public String name;
+	public static String description;
+}
+
+public class App {
+	public static void main(String[] args) {
+		System.out.println();
+	}
+}

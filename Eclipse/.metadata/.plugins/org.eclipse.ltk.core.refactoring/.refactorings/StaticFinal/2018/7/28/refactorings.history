@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;SOME_NUM&apos; in &apos;Thing&apos; to &apos;LUCKY_NUM&apos;&#x0D;&#x0A;- Original project: &apos;StaticFinal&apos;&#x0D;&#x0A;- Original element: &apos;Thing.SOME_NUM&apos;&#x0D;&#x0A;- Renamed element: &apos;Thing.LUCKY_NUM&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;SOME_NUM&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{App.java[Thing^SOME_NUM" name="LUCKY_NUM" references="true" setter="false" stamp="1531322028941" textual="false" version="1.0"/>
+</session>
