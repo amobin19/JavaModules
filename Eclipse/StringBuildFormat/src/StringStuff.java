@@ -25,5 +25,20 @@ public class StringStuff {
 		
 		System.out.println(s.toString());
 		
+		// Formatting //
+		
+		System.out.println("Here is some text.\tThat was a tab.\nThat was a new line");
+		System.out.println("More text.");
+		
+		// Formatting integers
+		System.out.printf("Total cost %d; quantity is %d", 5, 120);
+		
+		for(int i = 0; i < 20; i++){
+			System.out.printf("%-2d: %s\n", i, "here is some text");
+		}
+		
+		// Formatting floating point value
+		System.out.printf("Total value: %.2f\n", Math.PI);
+		System.out.printf("Total value: %10.1f\n", 343.23423);
 	}
 }
