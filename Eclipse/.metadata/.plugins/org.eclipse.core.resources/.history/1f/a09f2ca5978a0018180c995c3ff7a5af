@@ -1,0 +1,11 @@
+// import ocean.Fish;
+// import ocean.Seaweed;
+
+import ocean.*;
+
+public class Package1 {
+	public static void main(String[] args) {
+		Fish fish = new Fish();
+		Seaweed seaweed = new Seaweed();
+	}
+}
