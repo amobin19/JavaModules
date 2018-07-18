@@ -1,0 +1,13 @@
+public class TwoDArray {
+	public static void main(String[] args){
+		String[][] array2 = new String[1][2];
+		array2[0][0] = "1r1c";
+		array2[0][1] = "1r2c";
+		array2[0][2] = "1r3c";
+		array2[1][0] = "2r1c";
+		array2[1][1] = "2r2c";
+		array2[1][2] = "2r3c";
+		System.out.println(array2[1][3]);
+		
+	}
+}
