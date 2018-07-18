@@ -1,0 +1,7 @@
+
+public class main {
+	Machine mach1 = new Machine();
+	Person person1 = new Person("Bob");
+	
+	mach1.
+}

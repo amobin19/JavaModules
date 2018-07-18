@@ -1,7 +1,5 @@
-// import ocean.Fish;
-// import ocean.Seaweed;
-
-import ocean.*;
+// import ocean.*;
+import ocean.Fish;
 import ocean.plants.Seaweed;
 
 public class Package1 {
