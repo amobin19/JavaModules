@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class IsFiveChecked {
+	public static void main(String[] args) {
+		int value = 0;
+		Scanner scanner = new Scanner(System.in);
+		
+		while(value != 5){
+			System.out.println("Enter a number: ");
+			if(scanner.hasNextInt()){
+				value = scanner.nextInt();
+			}
+			else{
+				scanner.nextLine
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class IsFive {
+	public static void main(String[] args) {
+		Scanner num = new Scanner(System.in);
+		System.out.println("Print a number: ");
+		double five = num.nextDouble();
+		if(five != 5){
+			while(five != 5){
+				System.out.println("Print a number ");
+				double newNum = num.nextDouble();
+			}
+		}
+		else{
+			System.out.println("Got it!");
+		}
+	}
+}

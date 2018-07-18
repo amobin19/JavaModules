@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class IsFiveChecked {
+	public static void main(String[] args) {
+		double five = 0;
+		Scanner num = new Scanner(System.in);
+		while (five != 5) {
+			System.out.println("Print a number ");
+			if (num.hasNextDouble()) {
+				double newFive = num.nextDouble();
+			} else {
+				num.nextLine();
+				if (five == 5) {
+					System.out.println("Got it!");
+					break;
+				}
+			}
+		}
+
+	}
+
+}
