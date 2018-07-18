@@ -1,0 +1,4 @@
+public class CarMain {
+	Car car1 = new Car();
+	car1.started();
+}
