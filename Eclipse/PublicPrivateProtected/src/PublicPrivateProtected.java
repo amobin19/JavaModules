@@ -16,9 +16,14 @@ public class PublicPrivateProtected {
 		// System.out.println(plant.size);
 		
 		// Won't work; this class and Plan in different packages, height as package-level visibility
-		System.out.println(plant.height);
+		// System.out.println(plant.height);
 	}
 }
 
-// private is only within class
-// protected is accessible to child classes or package
+/* 
+ * private -- only within same class
+ * public -- from anywhere
+ *  protected -- same class, subclass, and same package
+ * no modifier -- same package only
+ * doesn't apply to classes and only instances
+*/
