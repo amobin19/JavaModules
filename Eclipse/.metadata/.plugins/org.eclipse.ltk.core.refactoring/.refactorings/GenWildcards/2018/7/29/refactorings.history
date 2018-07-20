@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;list&apos; in &apos;App.main(...)&apos; to &apos;list1&apos;&#x0D;&#x0A;- Original project: &apos;GenWildcards&apos;&#x0D;&#x0A;- Original element: &apos;App.main(String[]).list&apos;&#x0D;&#x0A;- Renamed element: &apos;list&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;list&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{App.java[App~main~\[QString;@list!291!341!310!313!QArrayList\&lt;QMachine;&gt;;!0!false" name="list1" references="true" stamp="1532109322587" version="1.0"/>
+</session>
