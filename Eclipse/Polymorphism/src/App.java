@@ -21,3 +21,4 @@ public class App {
 		plant.grow();
 	}
 }
+// Polymorphism: child class can be used wherever parent class is expected
