@@ -1,4 +1,4 @@
-public class training1 {
+public class TypesExercise {
     public static void main(String args[]){
         int var = 5;
         System.out.println(var);
@@ -7,5 +7,7 @@ public class training1 {
         int intVal = 5;
         long longVal = 50000L + (10L * (byteVal + shortVal + intVal));
         System.out.println(longVal);
+        short newShortVal = (short) longVal;
+        System.out.println(newShortVal);
     }
 }
